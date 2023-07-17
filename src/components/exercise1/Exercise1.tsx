@@ -15,9 +15,12 @@ export default function Exercise1() {
         </Button>
       </Group>
 
-      <Container py="lg" px={0}>
+      <Container py="lg" px={0} sx={{
+        display: 'flex', alignItems: 'center',
+        justifyContent: 'center', fontSize: '1.1rem', lineHeight: 1.4
+      }}>
         <BaiLam1 />
-      </Container>
+      </Container >
 
       <Drawer
         opened={opened}

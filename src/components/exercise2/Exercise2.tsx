@@ -15,7 +15,10 @@ export default function Exercise2() {
         </Button>
       </Group>
 
-      <Container py="lg" px={0}>
+      <Container py="lg" px={0} sx={{
+        alignItems: 'center', maxWidth: '960px', marginLeft: 'auto', marginRight: 'auto', padding: '20px 0'
+
+      }}>
         <BaiLam2 />
       </Container>
 

@@ -2,6 +2,7 @@ import { Grid } from '@mantine/core';
 import PokemonCard from './components/PokemonCard';
 import pokemons from './data/pokemon.data';
 
+
 export default function BaiLam3() {
 
   return <>
